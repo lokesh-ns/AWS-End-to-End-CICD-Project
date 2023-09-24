@@ -5,4 +5,4 @@ set -e
 docker pull lokeshns/demo-django-app
 
 # Run the Docker image as a container
-docker run -d lokeshns/demo-django-app -p 9000:9000
+docker run -d -p 9000:9000 lokeshns/demo-django-app
